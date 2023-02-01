@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      # List current dictory contents
+      - name: List current dictory contents
+        run: |
+          ls -al
